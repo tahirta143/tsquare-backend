@@ -1,0 +1,16 @@
+{
+  "name": "tsquare-labs-backend",
+  "version": "1.0.0",
+  "description": "Backend API for T-Seqaure Technologies Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node init && node index.js",
+    "dev": "node init && node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^9.0.0"
+  }
+}
